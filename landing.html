@@ -3,41 +3,57 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div>
+    <div id="container">
       <!-- S1 header-->
       <header id="header">
       <!-- S2 header img-->
-      <img id="header-img"src="#" alt="By: Migaja">
+      <img id="header-img"src="1.png" alt="By: Migaja">
       <!-- S3 navbar-->
       <nav id="nav-bar">
         <!-- S4 nav-link-->
-        <ul>
+        <div>
           <!-- S4 y s5 link cada uno a una sección de las secciones de la pagina-->
-          <li href="" class="nav-link">inicio</li>
-          <li href="" class="nav-link">>xx</li>
-          <li href="" class="nav-link">>yyy</li>
-        </ul>
+          <ul class="ul">
+            <li class="nav-link"><a href="#into">Inicio</a></li>
+            <li class="nav-link"><a href="#video">Video</a></li>
+            <li class="nav-link"><a href="#carac">Caracteristicas</a></li>
+          </ul>
+
+        </div>
+      <!-- s13 nav debe estar anclado a la parte superior -->
       </nav>
-      <div class="img-div">
+      </header>
+      <div id="inicio" class="img-div">
       <!-- S6 video-->
-        <iframe id="video"src="#" width="90%" height="auto"></iframe>
+        <img src="3.png" alt="tabla portatil">
+        <img src="4.png" alt="tabla portatil">
+
       </div>
+      <div class="intro">
+      <h1>Tablas de entrenamiento portatiles </h1>
+      <p>¿no tienes un lugar fijo donde poner tu tabla? <br>Viajas mucho y ¿no quieres perder tu entrenamiento? <br>¿necesitas una solución portatil para calentar para tu proyecto? <br><br><strong>¡Aca encontraras las mejores tablas de entrenamiento de escalada!</strong></p>
+      </div>
+      <video id="video" class="video" src="#" autoplay poster="5.png">
+
+      </video>
       <!-- S7 form-->
-      <form id="form">
+      <form id="form" action="https:freecodecamp.com/email-submit">
         <h2>email</h2>
         <!-- S8 ys9 s10 amail y validación-->
-        <input type="email" name="email" id="email" placeholder="xxyza@email.com" required="">
+        <input type="email" name="email" id="email" placeholder="aabb@email.com" required="">
         <!-- s11 y s12 debe enviar el mail a una url en la pag de instrucciones-->
-        <button id="submit" type="submit"></button>
-
+        <button id="submit" type="submit" value="submit"></button>
       </form>
-
-
-      </header>
-
+      <!-- s14 use a media querry-->
+      <!-- s15 use a flexbox -->
+      <div id="carac"class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+      </div>
     </div>
-
   </body>
 </html>
