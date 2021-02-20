@@ -15,6 +15,12 @@ h1{
   color: #003138;
   background-color: #c1ba3e;
 }
+h2{
+  margin-bottom: 0px;
+  font-family: ailerons, helvetica;
+  color: #003138;
+  background-color: #c1ba3e;
+}
 p{
   background-color: #9f9785;
   color: white;
@@ -54,7 +60,16 @@ a{
   margin: auto;
   margin-top: 2vh;
   padding: 2vh;
-
+}
+.item{
+  color: #003138;
+  padding: 1%;
+  margin-left: 10px;
+  width: 100%;
+  border: 1px  #9f9785;
+  border-style: solid;
+  text-align: justify;
+  list-style: circle;
 }
 #container{
   display: flex;
@@ -76,4 +91,22 @@ a{
 #header-img{
   height: 150%;
   width: auto;
+}
+#form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 2vh;
+  padding: 2vh;
+}
+#carac{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 2vh;
+  padding: 2vh;
 }
