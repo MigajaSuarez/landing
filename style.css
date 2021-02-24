@@ -32,6 +32,11 @@ a{
   color: #003138;
   text-decoration: none;
 }
+@media (max-width: 600px) {
+  .video {
+    width: auto;
+  }
+}
 .video{
   max-height: 50vh;
   margin: 2vh;
